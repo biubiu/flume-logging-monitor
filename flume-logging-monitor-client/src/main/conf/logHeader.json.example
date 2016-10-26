@@ -1,0 +1,57 @@
+{
+  "/var/log/nginx/www.shawn.com.access_log": {
+    "domain": "www",
+    "log_type": "access",
+    "server_type":"nginx"
+  },
+  "/var/log/nginx/www.shawn.com.error_log": {
+    "domain": "www",
+    "log_type": "error",
+    "server_type":"nginx"
+  },
+  "/var/log/nginx/login.shawn.com.access_log": {
+    "domain": "login",
+    "log_type": "access",
+    "server_type":"nginx"
+  },
+  "/var/log/nginx/login.shawn.com.error_log": {
+    "domain": "login",
+    "log_type": "error",
+    "server_type":"nginx"
+  },
+  "/var/log/nginx/job.shawn.com.access_log": {
+    "domain": "job",
+    "log_type": "access",
+    "server_type":"nginx"
+  },
+  "/var/log/nginx/job.shawn.com.error_log": {
+    "domain": "job",
+    "log_type": "error",
+    "server_type":"nginx"
+  },
+  "/var/log/nginx/image.shawn.com.access_log": {
+    "domain": "image",
+    "log_type": "access",
+    "server_type":"nginx"
+  },
+  "/var/log/nginx/image.shawn.com.error_log": {
+    "domain": "image",
+    "log_type": "error",
+    "server_type":"nginx"
+  },
+  "/var/log/nginx/rest.shawn.com.access_log": {
+    "domain": "rest",
+    "log_type": "access",
+    "server_type":"nginx"
+  },
+  "/var/log/nginx/rest.shawn.com.error_log": {
+    "domain": "rest",
+    "log_type": "error",
+    "server_type":"nginx"
+  },
+  "/var/log/haproxy.log": {
+    "domain": "default",
+    "log_type": "default",
+    "server_type":"haproxy"
+  }
+}
